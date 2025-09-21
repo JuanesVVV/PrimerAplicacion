@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoy Soy</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>SOY YO</h1>
-    <script src="script.js"></script>
+  <div class="container">
+    <h1>¿Quién soy hoy?</h1>
+    <div id="personality-card" class="card">
+      <h2 id="persona-title">Cargando...</h2>
+      <p id="persona-description"></p>
+      <button id="generate-btn">Descubrir mi personalidad</button>
+    </div>
+
+    <div class="challenge-section">
+      <h3>Reto del día</h3>
+      <p id="daily-challenge">Haz clic para descubrir tu reto.</p>
+    </div>
+
+    <div class="stats-section">
+      <h3>Historial de personalidades</h3>
+      <ul id="history-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
